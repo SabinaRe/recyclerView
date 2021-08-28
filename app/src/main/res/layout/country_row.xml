@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="30dp"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/design_box">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/flag"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginLeft="15dp"/>
+
+
+        <TextView
+            android:id="@+id/countryN"
+            android:layout_width="172dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardbox"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:clickable="true"
+            android:textStyle="bold"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
